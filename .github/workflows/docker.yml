@@ -1,0 +1,15 @@
+name: Development Build
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  build-dev:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Build dev containers
+        run: docker compose build
