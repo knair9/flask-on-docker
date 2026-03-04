@@ -10,7 +10,7 @@ This repository contains a containerized Flask web application deployed using Do
 
 The animation below demonstrates running the development server, uploading a file through the `/upload` endpoint, and retrieving the file from the `/media/<filename>` endpoint.
 
-![Demo](images/flask-on-docker-demo.gif)
+![Demo](flask-on-docker-demo.gif)
 
 ## Build Instructions
 
