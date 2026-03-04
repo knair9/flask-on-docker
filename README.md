@@ -16,12 +16,12 @@ The animation below demonstrates running the development server, uploading a fil
 
 ### Clone the repository
 
-git clone https://github.com/knair9/flask-on-docker.git  
-cd flask-on-docker
+```git clone https://github.com/knair9/flask-on-docker.git``` <br>
+```cd flask-on-docker```
 
 ### Start the development environment
 
-docker compose up -d --build
+```docker compose up -d --build```
 
 This command builds the Docker containers and starts the services for the Flask application and PostgreSQL database.
 
@@ -29,15 +29,15 @@ This command builds the Docker containers and starts the services for the Flask 
 
 Open the upload page in your browser:
 
-http://localhost:5001/upload
+http://localhost:8011/upload
 
 Upload a file using the form. After uploading, the file can be accessed at:
 
-http://localhost:5001/media/<filename>
+http://localhost:8011/media/<filename>
 
 ### Stop the services
 
-docker compose down
+```docker compose down```
 
 ## Continuous Integration
 
